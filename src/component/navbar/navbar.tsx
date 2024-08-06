@@ -8,7 +8,7 @@ const NavBar = () => {
   const [activeButton, setActiveButton] = useState<string>('Mainnet')
 
   return (
-    <div className="flex items-center justify-between px-4 py-2 bg-white shadow font-mono">
+    <div className="flex items-center justify-between px-4 py-2 bg-white font-mono h-24">
       <div className="flex-1 items-center">
         <img src={logoSVG} alt="logo" className='h-8 w-8 mr-2' />
       </div>
